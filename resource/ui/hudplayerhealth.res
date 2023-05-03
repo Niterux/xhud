@@ -7,11 +7,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"		"c-150"
+		"xpos"		"c-200"
 		"ypos"		"c65"
 		"zpos"		"0"
 		"wide"		"80"
-		"tall"		"30"
+		"tall"		"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthDeathWarning"		"1.0"

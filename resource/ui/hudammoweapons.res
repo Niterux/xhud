@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"AmmoAnchor"
-		"xpos"		"c70"
+		"xpos"		"c120"
 		"ypos"		"c65"
 		"wide"		"80"
 		"tall"		"30"
