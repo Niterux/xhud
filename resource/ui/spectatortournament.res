@@ -1,5 +1,3 @@
-#base "../../cfg/xhud_resolution_selection.txt"
-
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -29,7 +27,7 @@
 			"color_ready"	"Green"
 			"color_notready"	"GrayDarkest"
 
-			"HealthIcon"		//Overridden		HealthBonusPosAdj=HudPlayerHealth(151/81)
+			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"HealthIcon"
@@ -40,9 +38,10 @@
 				"tall"		"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"HealthDeathWarning"		"1.0"
+				"HealthBonusPosAdj"		"0"
+				"HealthDeathWarning"		"0"
+				"paintbackground"		"0"
 				"TFFont"		"Size 16"
-				"HealthDeathWarningColor"	"Low Health"
 				"TextColor"		"GrayDarkest"
 				"proportionaltoparent"		"1"
 

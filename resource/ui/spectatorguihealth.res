@@ -59,19 +59,19 @@
 	}
 
 	"HealthTargetIDBG"
-  {
-    "ControlName"		"CExLabel"
-    "fieldName"		"PeachHealthBGSpec"
-    "xpos"		"cs-0.5"
-    "ypos"		"0"
-    "zpos"		"2"
-    "wide"		"6969"
-    "tall"		"16"
-    "visible"		"1"
-    "enabled"		"1"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"PeachHealthBGSpec"
+		"xpos"		"cs-0.5"
+		"ypos"		"0"
+		"wide"		"0"
+		"tall"		"16"
+		"visible"		"0"
+		"enabled"		"1"
 		"labelText"		""
-    "bgcolor_override"		"White"
-		"alpha"		"150"
+		"bgcolor_override"		"White"
+		"paintbackground"		"0"
+		"alpha"		"0"
 		"proportionaltoparent"		"1"
   }
 

@@ -1,21 +1,19 @@
-#base "../../cfg/xhud_resolution_selection.txt"
-
 "Resource/UI/TargetID.res"
 {
-	"SpectatorGUIHealth"		//Overridden		HealthBonusPosAdj=HudPlayerHealth(14/81)
+	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"		"10"
 		"ypos"		"0"
 		"wide"		"36"
 		"tall"		"14"
 		"visible"		"0"
+		"HealthBonusPosAdj"		"0"
 		"enabled"		"0"
-		"HealthDeathWarning"	"1"
 		"TFFont"		"Size 16"
 		"textAlignment"		"center"
-		"HealthDeathWarningColor"	"Low Health"
+		"paintbackground"		"0"
 		"TextColor"		"GrayDarkest"
 	}
 

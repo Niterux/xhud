@@ -1,9 +1,8 @@
-#base "../../cfg/xhud_resolution_selection.txt"
 #base "../../cfg/xhud_customizations.txt"
 
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HudPlayerHealth"		//Overridden		HealthBonusPosAdj=(182-(31/320)*(1920-WIDTH))*((16/9)/(WIDTH/HEIGHT))
+	"HudPlayerHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
@@ -34,7 +33,7 @@
 		"xpos"		"80"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"1"
+		"wide"		"0"
 		"tall"		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -49,7 +48,7 @@
 		"xpos"		"2"
 		"ypos"		"0"
 		"zpos"		"5"
-		"wide"		"f0"
+		"wide"		"0"
 		"tall"		"2"
 		"visible"		"0"
 		"enabled"		"1"
@@ -58,58 +57,6 @@
 		"pin_to_sibling"		"HealthAnchor"
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"6"
-	}
-	"HealthBar"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"HealthBar"
-		"xpos"		"0"
-		"ypos"		"30"
-		"zpos"		"6"
-		"wide"		"80"
-		"tall"		"4"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"		"WhiteFull"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling_corner"		"7"
-	}
-	"HealthBarOverheal"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"HealthBarOverheal"
-		"xpos"		"-331"
-		"ypos"		"30"
-		"zpos"		"7"
-		"wide"		"250"
-		"tall"		"4"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"		"Blue"
-		"alpha"		"0"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-	}
-	"HealthBarLowHealth"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"HealthBarLowHealth"
-		"xpos"		"0"
-		"zpos"		"2"
-		"wide"		"200"
-		"tall"		"100"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"		"Low Health"
-		"alpha"		"0"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"4"
 	}
 	"PlayerStatusHealthValue"
 	{
