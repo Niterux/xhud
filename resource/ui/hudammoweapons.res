@@ -7,7 +7,7 @@
 		"fieldName"		"ReplacementCharge"
 		"zpos"		"0"
 		"xpos"		"402"
-		"ypos"		"40"
+		"ypos"		"23"
 		"wide"		"50"
 		"tall"		"512"
 		"visible"		"1"

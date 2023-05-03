@@ -42,39 +42,6 @@
 		"drawcolor"		"0 0 0 0"
 		"scaleImage"		"1"
 	}
-	"MeterLine1"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"MeterLine1"
-		"xpos"		"20"
-		"ypos"		"28"
-		"zpos"		"4"
-		"wide"		"1"
-		"tall"		"2"
-		"bgcolor_override"		"Black"
-	}
-	"MeterLine2"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"MeterLine2"
-		"xpos"		"40"
-		"ypos"		"28"
-		"zpos"		"4"
-		"wide"		"1"
-		"tall"		"2"
-		"bgcolor_override"		"Black"
-	}
-	"MeterLine3"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"MeterLine1"
-		"xpos"		"60"
-		"ypos"		"28"
-		"zpos"		"4"
-		"wide"		"1"
-		"tall"		"2"
-		"bgcolor_override"		"Black"
-	}
 	"HealthBarBG"
 	{
 		"ControlName"		"Panel"
@@ -84,7 +51,7 @@
 		"zpos"		"5"
 		"wide"		"f0"
 		"tall"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
 
@@ -101,7 +68,7 @@
 		"zpos"		"6"
 		"wide"		"80"
 		"tall"		"4"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"WhiteFull"
 
@@ -121,6 +88,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"Blue"
+		"alpha"		"0"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"7"
@@ -134,10 +102,10 @@
 		"zpos"		"2"
 		"wide"		"200"
 		"tall"		"100"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"Low Health"
-		"alpha"		"150"
+		"alpha"		"0"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"1"
