@@ -177,6 +177,4 @@
 		"depressedBgColor_override"	"WhiteGray"
 	}
 
-	"MapImage"
-	{"ControlName"	"ImagePanel"	"xpos"	"9999"}
 }
