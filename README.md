@@ -1,4 +1,5 @@
-install https://github.com/Niterux/titlescreenrain and https://github.com/Niterux/radial-callouts alongside this or there might be issues
+install https://github.com/Niterux/titlescreenrain and https://github.com/Niterux/radial-callouts alongside this or there might be issues, as missing .res files seems to cause performance issues in my experience, alternatively, you can remove the respective #bases from mainmenuoverride.res after downloading.
+also, my personal version contains a modified vtfpreload that makes using https://gamebanana.com/mods/download/409955#FileInfo_886192 possible without issues in casual
 # Xhud
 A TF2 HUD designed by Peaches to serve as an environment to develop innovative ideas and techniques into a final product that streamlines useful information for experienced players.
 * **[How to Install Xhud](https://github.com/PapaPeach/xhud/wiki/How-To-Install)**
