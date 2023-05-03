@@ -2,9 +2,9 @@
 {
 	"ChargeLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c60"
+		"xpos"			"c110"
 		"ypos"			"c65"
 		"zpos"			"2"
 		"wide"			"100"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c60"
+		"xpos"			"c110"
 		"ypos"			"c65"
 		"zpos"			"2"
 		"wide"			"100"
