@@ -11,7 +11,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_UberchargeMinHUD"
+		"labelText"		"%charge%"
 		"textAlignment"	"center"
 		"font"			"Size 42 Shadow"
 		"fgcolor"		"Ammo"
@@ -19,7 +19,7 @@
 
 	"IndividualChargesLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"c110"
 		"ypos"			"c65"
