@@ -16,7 +16,7 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"							"227 228 230 255"
+		"White"							"255 140 244 255"
 		"OffWhite"					"227 228 230 255"
 		"DullWhite"					"227 228 230 255"
 		"Orange"						"60 140 255 255"
@@ -227,16 +227,16 @@ Scheme
 				"tall"		"21"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 1999"
+				"yres"	"1200 1599"
 				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"28"
+				"tall"		"31.5"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"2000 6000"
+				"yres"	"1600 6000"
 				"antialias"	"1"
 			}
 		}
@@ -252,6 +252,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -260,6 +261,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -268,6 +270,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
@@ -276,22 +279,25 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Marlett"
 				"tall"		"22"
 				"weight"	"0"
-				"yres"		"1200 1999"
+				"yres"		"1200 1599"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
-			"6"
+			"5"
 			{
 				"name"		"Marlett"
-				"tall"		"29"
+				"tall"		"33"
 				"weight"	"0"
-				"yres"		"2000 6000"
+				"yres"		"1600 6000"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -304,6 +310,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -312,6 +319,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -320,6 +328,7 @@ Scheme
 				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
@@ -328,22 +337,25 @@ Scheme
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Marlett"
 				"tall"		"17"
 				"weight"	"0"
-				"yres"		"1200 1999"
+				"yres"		"1200 1599"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
-			"6"
+			"5"
 			{
 				"name"		"Marlett"
-				"tall"		"24"
+				"tall"		"25.5"
 				"weight"	"0"
-				"yres"		"2000 6000"
+				"yres"		"1600 6000"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -355,7 +367,7 @@ Scheme
 				"tall"		"15"
 				"weight"	"0"
 				"yres"		"480 1023"
-				"dropshadow"	"1"
+				"outline"	"1"
 				"antialias"		"1"
 			}
 			"2"
@@ -364,7 +376,7 @@ Scheme
 				"tall"		"17"
 				"weight"	"0"
 				"yres"		"1024 1199"
-				"dropshadow"	"1"
+				"outline"	"1"
 				"antialias"		"1"
 			}
 			"3"
@@ -372,20 +384,22 @@ Scheme
 				"name"		"Renogare Soft XHud"
 				"tall"		"24"
 				"weight"	"0"
-				"yres"		"1200 1999"
-				"dropshadow"	"1"
+				"yres"		"1200 1599"
+				"outline"		"1"
 				"antialias"		"1"
 			}
 			"4"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"31"
+				"tall"		"36"
 				"weight"	"0"
-				"yres"		"2000 6000"
-				"dropshadow"	"1"
+				"yres"		"1600 6000"
+				"outline"		"1"
 				"antialias"		"1"
 			}
 		}
+
+
 	}
 
 	//
@@ -394,11 +408,11 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-		BaseBorder			DepressedBorder
-		ButtonBorder		RaisedBorder
-		ComboBoxBorder		DepressedBorder
-		MenuBorder			RaisedBorder
-		BrowserBorder		DepressedBorder
+		BaseBorder					DepressedBorder
+		ButtonBorder				RaisedBorder
+		ComboBoxBorder			DepressedBorder
+		MenuBorder					RaisedBorder
+		BrowserBorder				DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
 		FrameBorder

@@ -427,5 +427,334 @@
 			"visible"	"1"
 			"image"	"../vgui/maps/menu_thumb_missing"
 		}
+		//Class Portraits
+		"class_demoblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_demoblue.vmt"
+		}
+		"class_demored"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_demored.vmt"
+		}
+		"class_engiblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_engiblue.vmt"
+		}
+		"class_engired"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_engired.vmt"
+		}
+		"class_heavyblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_heavyblue.vmt"
+		}
+		"class_heavyred"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_heavyred.vmt"
+		}
+		"class_medicblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_medicblue.vmt"
+		}
+		"class_medicred"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_medicred.vmt"
+		}
+		"class_pyroblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_pyroblue.vmt"
+		}
+		"class_pyrored"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_pyrored.vmt"
+		}
+		"class_scoutblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_scoutblue.vmt"
+		}
+		"class_scoutred"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_scoutred.vmt"
+		}
+		"class_sniperblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_sniperblue.vmt"
+		}
+		"class_sniperred"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_sniperred.vmt"
+		}
+		"class_soldierblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_soldierblue.vmt"
+		}
+		"class_soldierred"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_soldierred.vmt"
+		}
+		"class_spyblue"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_spyblue.vmt"
+		}
+		"class_spyred"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_spyred.vmt"
+		}
+
+
+		"class_demoblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_demoblue_halfcloak.vmt"
+		}
+		"class_demored_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_demored_halfcloak.vmt"
+		}
+		"class_engiblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_engiblue_halfcloak.vmt"
+		}
+		"class_engired_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_engired_halfcloak.vmt"
+		}
+		"class_heavyblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_heavyblue_halfcloak.vmt"
+		}
+		"class_heavyred_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_heavyred_halfcloak.vmt"
+		}
+		"class_medicblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_medicblue_halfcloak.vmt"
+		}
+		"class_medicred_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_medicred_halfcloak.vmt"
+		}
+		"class_pyroblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_pyroblue_halfcloak.vmt"
+		}
+		"class_pyrored_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_pyrored_halfcloak.vmt"
+		}
+		"class_scoutblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_scoutblue_halfcloak.vmt"
+		}
+		"class_scoutred_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_scoutred_halfcloak.vmt"
+		}
+		"class_sniperblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_sniperblue_halfcloak.vmt"
+		}
+		"class_sniperred_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_sniperred_halfcloak.vmt"
+		}
+		"class_soldierblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_soldierblue_halfcloak.vmt"
+		}
+		"class_soldierred_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_soldierred_halfcloak.vmt"
+		}
+		"class_spyblue_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_spyblue_halfcloak.vmt"
+		}
+		"class_spyred_halfcloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_spyred_halfcloak.vmt"
+		}
+
+
+		"class_demoblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_demoblue_cloak.vmt"
+		}
+		"class_demored_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_demored_cloak.vmt"
+		}
+		"class_engiblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_engiblue_cloak.vmt"
+		}
+		"class_engired_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_engired_cloak.vmt"
+		}
+		"class_heavyblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_heavyblue_cloak.vmt"
+		}
+		"class_heavyred_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_heavyred_cloak.vmt"
+		}
+		"class_medicblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_medicblue_cloak.vmt"
+		}
+		"class_medicred_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_medicred_cloak.vmt"
+		}
+		"class_pyroblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_pyroblue_cloak.vmt"
+		}
+		"class_pyrored_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_pyrored_cloak.vmt"
+		}
+		"class_scoutblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_scoutblue_cloak.vmt"
+		}
+		"class_scoutred_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_scoutred_cloak.vmt"
+		}
+		"class_sniperblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_sniperblue_cloak.vmt"
+		}
+		"class_sniperred_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_sniperred_cloak.vmt"
+		}
+		"class_soldierblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_soldierblue_cloak.vmt"
+		}
+		"class_soldierred_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_soldierred_cloak.vmt"
+		}
+		"class_spyblue_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_spyblue_cloak.vmt"
+		}
+		"class_spyred_cloak"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/class_spyred_cloak.vmt"
+		}
 	}
 }

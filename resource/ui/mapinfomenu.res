@@ -14,6 +14,16 @@
 		"bgcolor_override"		"TransparentBlack"
 	}
 
+	"MapImage"
+	{
+		"wide"			"0"	
+	}
+
+	"MapInfoWatchIntro"
+	{
+		"wide"			"0"
+	}
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -166,4 +176,7 @@
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"
 	}
+
+	"MapImage"
+	{"ControlName"	"ImagePanel"	"xpos"	"9999"}
 }
