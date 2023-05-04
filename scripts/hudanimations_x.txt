@@ -64,8 +64,6 @@ event HudHealthBonusPulse
 	SetVisible HealthBarLowHealth 0 0.0
 
 	SetVisible HealthSpectatorBarBuff 1 0.0
-
-	Animate HealthBarBG	bgcolor	"WhiteFull"	Linear 0.0 0.001
 }
 
 event HudHealthBonusPulseStop
@@ -75,8 +73,6 @@ event HudHealthBonusPulseStop
 	SetVisible HealthBarLowHealth 1 0.0
 
 	SetVisible HealthSpectatorBarBuff 0 0.0
-
-	Animate HealthBarBG	bgcolor	"TransparentGrayDarkest"	Linear 0.0 0.001
 }
 
 //==============================================================================

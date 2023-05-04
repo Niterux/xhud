@@ -8,12 +8,13 @@
 		"text_x"		"0"
 		"text_y"		"0"
 		"delta_item_end_y"		"0"
+		"delta_item_start_y"		"0"
 		"PositiveColor"		"Heal Numbers"
 		"EventColor"	"Medic Drop"
-		"delta_lifetime"		"2.5"
+		"delta_lifetime"		"2"
 		"delta_item_font"		"Size 24 Damage"
 		"delta_item_font_big"	"Size 24 Damage"
-		"alpha"		"150"
+		"alpha"		"255"
 	}
 
 	"DamageAccountValue"
