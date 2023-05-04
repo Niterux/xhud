@@ -156,22 +156,9 @@
 	}
 	"AvatarImage"
 	{
-		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"6"
-		"xpos_minmode"	"6"
-		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
-		"zpos"			"99"
-		"wide"			"11"
-		"tall"			"11"
-		"visible"		"1"
+		"xpos"		"9999"
+		"wide"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
-		"pin_to_sibling"		"TargetIDBG"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"7"
 	}
 }
