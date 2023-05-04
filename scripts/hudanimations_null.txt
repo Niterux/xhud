@@ -112,6 +112,10 @@ event SurveySubmitSequence{}
 event SurveyDelete{}
 event SurveyHideSequence{}
 event MapVoted{}
+event HudTakeDamageFront{}
+event HudTakeDamageLeft{}
+event HudTakeDamageRight{}
+event HudTakeDamageBehind{}
 event WinningNextMapVote{}
 event LosingNextMapVote{}
 event QuestMap_LoadingLoop{}

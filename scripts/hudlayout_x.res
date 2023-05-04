@@ -365,7 +365,6 @@
 		"wide"		"f0"
 		"tall"		"480"
 	}
-
 	"CurrencyStatusPanel"
 	{
 		"xpos"		"cs-0.5"
@@ -378,16 +377,17 @@
 
 	"HudDamageIndicator"
 	{
-		"MinimumWidth"		"10"
-		"MaximumWidth"		"10"
-		"StartRadius"		"80"
-		"EndRadius"		"80"
-		"MinimumHeight"		"25"
-		"MaximumHeight"		"65"
-		"MinimumTime"		"0.2"
-		"MaximumTime"		"0.8"
-		"FadeOutPercentage"	"1"
-		"Noise"	"0"
+		"MinimumWidth"		"50"
+		"MaximumWidth"		"50"
+		"StartRadius"		"100"
+		"EndRadius"			"100"
+		"MinimumHeight"		"20"
+		"MaximumHeight"		"20"
+		"MinimumTime"		"1"
+		"MaximumTime"		"1"
+		"FadeOutPercentage"	"0"
+		"MaximumDamage"		"0"
+		"Noise"			"0"
 	}
 
 	HudDeathNotice
