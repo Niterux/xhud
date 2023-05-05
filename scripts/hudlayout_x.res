@@ -285,10 +285,10 @@
 
 	CHealthAccountPanel
 	{
-		"xpos"		"cs-1.0-18"
-		"ypos"		"c75"
-		"xpos_minmode"	"cs-1.0-18"
-		"ypos_minmode"	"c75"
+		"xpos"		"cs-1.0-63"
+		"ypos"		"c70"
+		"xpos_minmode"	"cs-1.0-63"
+		"ypos_minmode"	"c70"
 		"wide"		"50"
 		"tall"		"15"
 	}
@@ -377,12 +377,12 @@
 
 	"HudDamageIndicator"
 	{
-		"MinimumWidth"		"50"
-		"MaximumWidth"		"50"
-		"StartRadius"		"100"
-		"EndRadius"			"100"
-		"MinimumHeight"		"20"
-		"MaximumHeight"		"20"
+		"MinimumWidth"		"100"
+		"MaximumWidth"		"100"
+		"StartRadius"		"80"
+		"EndRadius"			"80"
+		"MinimumHeight"		"40"
+		"MaximumHeight"		"40"
 		"MinimumTime"		"1"
 		"MaximumTime"		"1"
 		"FadeOutPercentage"	"0"

@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c110"
+		"xpos"			"c92"
 		"ypos"			"c65"
 		"zpos"			"2"
 		"wide"			"100"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c110"
+		"xpos"			"c92"
 		"ypos"			"c65"
 		"zpos"			"2"
 		"wide"			"100"
