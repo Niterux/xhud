@@ -168,7 +168,8 @@
 		"fieldName"		"TopBar"
 		"ypos"		"r0"
 		"wide"		"0"
-		"enabled"		"0"
+		"tall"		'0"
+		"enabled"		"1"
 	}
 	"BottomBar"
 	{
@@ -176,7 +177,7 @@
 		"fieldName"		"BottomBar"
 		"ypos"		"r0"
 		"wide"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 	}
 	"bottombarblank"
 	{
@@ -184,6 +185,6 @@
 		"fieldName"		"bottombarblank"
 		"ypos"		"r0"
 		"wide"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 	}
 }
