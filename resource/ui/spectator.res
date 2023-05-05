@@ -168,7 +168,7 @@
 		"fieldName"		"TopBar"
 		"ypos"		"r0"
 		"wide"		"0"
-		"tall"		'0"
+		"tall"		"0"
 		"enabled"		"1"
 	}
 	"BottomBar"
