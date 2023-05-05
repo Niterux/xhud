@@ -145,8 +145,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"cs-0.5-110"
-		"ypos"			"31"
+		"xpos"			"70"
+		"ypos"			"100"
 		"wide"			"36"
 		"tall"			"14"
 		"visible"		"0"
@@ -157,5 +157,22 @@
 		"textAlignment"		"center"
 		"HealthDeathWarningColor"	"Low Health"
 		"TextColor"		"GrayDarkest"
+		
+		"PlayerStatusHealthValue"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayerStatusHealthValue"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"6"
+			"wide"			"36"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%Health%"
+			"textAlignment"		"center"
+			"font"			"Size 16"
+			"fgcolor"		"Ammo"
+		}
 	}
 }
