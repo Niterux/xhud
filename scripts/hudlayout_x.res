@@ -512,7 +512,7 @@
 	"HudMenuSpyDisguise"
 	{
 		"xpos"		"5"
-		"ypos"		"240"
+		"ypos"		"190"
 		"wide"		"f5"
 		"tall"		"240"
 	}

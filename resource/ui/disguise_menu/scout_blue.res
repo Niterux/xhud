@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassIconLabel"
-		"font"			"Class Symbols 24"
+		"font"			"Class Symbols 20"
 		"fgcolor"		"Blue"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"a"
-		"textAlignment"	"Center"
+		"textAlignment"	"West"
 		"proportionaltoparent"		"1"
 	}
 
@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Size 20 Shadow"
+		"font"			"Size 16 Shadow"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"20"
@@ -32,14 +32,14 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"West"
 	}
 
 	"NumberLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Size 20 Shadow"
+		"font"			"Size 16 Shadow"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"20"
@@ -49,6 +49,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"West"
 	}
 }

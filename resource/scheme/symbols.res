@@ -63,12 +63,12 @@ Scheme
 			}
 		}
 
-		"Class Symbols 24"
+		"Class Symbols 20"
 		{
 			"1"
 			{
 				"name"	"TF2 Class Icons V2"
-				"tall"	"24"
+				"tall"	"20"
 				"additive"	"0"
 				"antialias"	"1"
 			}
