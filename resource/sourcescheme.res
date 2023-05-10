@@ -328,6 +328,7 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -338,6 +339,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"yres"		"480 1999"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -345,6 +347,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"700"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 
@@ -355,6 +358,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"yres"		"480 1999"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -362,6 +366,7 @@ Scheme
 				"tall"		"17"
 				"weight"	"700"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 
@@ -374,6 +379,7 @@ Scheme
 				"weight"		"0"
 				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -382,6 +388,7 @@ Scheme
 				"weight"		"0"
 				"range"		"0x0000 0x017F"
 				"yres"		"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -455,6 +462,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"0"
 				"yres"		"480 1199"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -462,6 +470,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"yres"		"1200 1999"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -469,6 +478,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 		"DefaultFixedOutline" // cl_showfps this does create the side effect of the panel mostly being cut off but I think it's worth the tradeoff since now you can read it in the first place
@@ -480,6 +490,7 @@ Scheme
 				"weight"	"0"
 				"outline"	"1"
 				"yres"		"480 1199"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -488,6 +499,7 @@ Scheme
 				"weight"	"0"
 				"outline"	"1"
 				"yres"		"1200 1999"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -496,6 +508,7 @@ Scheme
 				"weight"	"0"
 				"outline"	"1"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 		"DefaultSmallDropShadow"	// top-right version code
@@ -505,6 +518,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"14"
 				"yres"		"480 1999"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -512,6 +526,7 @@ Scheme
 				"tall"		"17"
 				"weight"	"700"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 		"DefaultFixedDropShadow" // developer mode
@@ -523,6 +538,7 @@ Scheme
 				"weight"	"0"
 				"dropshadow" "1"
 				"yres"		"480 1199"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -531,6 +547,7 @@ Scheme
 				"weight"	"0"
 				"dropshadow" "1"
 				"yres"		"1200 1999"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -539,6 +556,7 @@ Scheme
 				"weight"	"0"
 				"dropshadow" "1"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 		"UiBold"
@@ -549,6 +567,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"1000"
 				"yres"		"480 1199"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -556,6 +575,7 @@ Scheme
 				"tall"		"15"
 				"weight"	"1000"
 				"yres"		"1200 1999"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -563,6 +583,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"1000"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
 		"DefaultVerySmall"
@@ -572,6 +593,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"18"
 				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		"SourceScheme 22"
@@ -592,20 +614,35 @@ Scheme
 				"name"		"Lucida Console"
 				"tall"		"10"
 				"yres"		"480 1199"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Lucida Console"
 				"tall"		"14"
 				"yres"		"1200 1999"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Lucida Console"
 				"tall"		"20"
 				"yres"		"2000 6000"
+				"antialias"	"1"
 			}
 		}
+		"Marlett"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"antialias"	"1"
+			}
+		}
+
 	}
 
 	CustomFontFiles
