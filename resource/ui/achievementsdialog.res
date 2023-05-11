@@ -21,10 +21,10 @@
 		"borderwidth"				"15"
 	}
 	
-	"Back" //back button
+	"Close"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"Back"
+		"fieldName"		"Close"
 		"xpos"		"544"
 		"ypos"		"410"
 		"wide"		"70"
@@ -34,7 +34,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"4"
-		"labelText"		"#GameUI_Back"
+		"labelText"		"#GameUI_Close"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
