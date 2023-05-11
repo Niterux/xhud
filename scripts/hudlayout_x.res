@@ -251,7 +251,19 @@
 		"blue_active_xpos"		"16"
 		"red_active_xpos"		"106"
 	}
-
+	"HudAchievementTracker"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudAchievementTracker"
+		"xpos"			"5"
+		"NormalY"			"40"
+		"EngineerY"		"40"
+		"zpos"			"2"
+		"wide"			"280"
+		"tall"			"280"
+		"visible"		"1"
+		"enabled"		"1"	
+	}
 	HudMedicCharge
 	{
 		"xpos"		"0"
