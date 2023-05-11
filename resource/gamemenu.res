@@ -63,6 +63,13 @@
 		"tooltip"		"Open Console"
 	}
 
+	"Achievements"
+	{
+		"label"			"U"
+		"command"		"OpenAchievementsDialog"
+		"tooltip"		"Achievements"
+	}
+
 	"Quit"
 	{
 		"label"			"Quit"

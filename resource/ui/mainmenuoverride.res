@@ -781,6 +781,44 @@
 		}
 	}
 
+	"Achievements"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Achievements"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"Console"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 22"
+			"textAlignment"		"center"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
 	"Quit"
 	{
 		"ControlName"		"EditablePanel"
