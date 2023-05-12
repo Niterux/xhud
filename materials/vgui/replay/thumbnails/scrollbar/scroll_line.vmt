@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\scrollbar\scroll_line"
+	"$ignorez" 1
+	"$alphatest"	"1"
+}
