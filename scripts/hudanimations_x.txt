@@ -10,8 +10,8 @@ event DamagedPlayer
 {
 	StopEvent AnimateHitmarker 0.0
 	RunEvent AnimateHitmarker 0.001
-	StopEvent HudSpyDisguiseFadeOut 0.0
-	RunEvent HudSpyDisguiseFadeOut 0.001
+	Animate HudPlayerClass	xpos	-1000		Linear 0.0 0.1
+	Animate ModelPin		xpos	1000			Linear 0.0 0.1
 }
 
 event AnimateHitmarker
@@ -186,8 +186,8 @@ event HudSpyDisguiseFadeIn
 	RunEvent HudSpyDisguiseChanged	0
 
 	RunEventChild DisguiseDust playdisguiseparticles 0.0
-	Animate HudPlayerClass	xpos	0	Linear 0.01 0.001
-	Animate ModelPin			xpos	0	Linear 0.01 0.001
+	Animate HudPlayerClass	xpos	0	Linear 0.01 0.1
+	Animate ModelPin			xpos	0	Linear 0.01 0.1
 
 	SetVisible Disguising	1 0.0
 	SetVisible Disguising	0 1.0
@@ -200,8 +200,8 @@ event HudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
 
-	Animate HudPlayerClass	xpos	-1000		Linear 0.0 0.001
-	Animate ModelPin		xpos	1000			Linear 0.0 0.001
+	Animate HudPlayerClass	xpos	-1000		Linear 0.0 0.1
+	Animate ModelPin		xpos	1000			Linear 0.0 0.1
 }
 event playdisguiseparticles
 {
