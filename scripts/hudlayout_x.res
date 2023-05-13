@@ -629,4 +629,6 @@
 	{"xpos"	"9999"	"visible"	"0"}
 	HudTeamGoalTournament
 	{"xpos"	"9999"	"visible"	"0"}
+	HudArenaClassLayout
+	{"xpos"	"9999"	"visible"	"0"}
 }
