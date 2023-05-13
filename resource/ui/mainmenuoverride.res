@@ -321,10 +321,9 @@
 		"ypos"		"220"
 		"zpos"		"5"
 		"wide"		"140"
-		"wide_minmode"		"0"		//Benchmark this
 		"tall"		"165"
 		"visible"		"1"
-
+		"visible_minmode"		"0"		//Benchmark this
 		"border"		"NoBorder"
 
 		"SteamFriendsList"
@@ -333,9 +332,9 @@
 			"fieldname"		"SteamFriendsList"
 			"zpos"		"500"
 			"wide"		"f0"
-			"wide_minmode"		"0"		//Benchmark this
 			"tall"		"f0"
 			"visible"		"1"
+			"visible_minmode"		"0"
 			"proportionaltoparent"		"1"
 
 			"columns_count"		"1"

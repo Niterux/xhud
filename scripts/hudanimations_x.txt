@@ -10,8 +10,8 @@ event DamagedPlayer
 {
 	StopEvent AnimateHitmarker 0.0
 	RunEvent AnimateHitmarker 0.001
-	StopEvent HudSpyDisguiseFadeOut	0.0
-	RunEvent HudSpyDisguiseFadeOut 0.1
+	StopEvent MovePlayerIconOff	0.0
+	RunEvent MovePlayerIconOff 0.001
 }
 
 event AnimateHitmarker
@@ -181,19 +181,28 @@ event HudTournamentSetupPanelClose
 //==============================================================================
 
 // Show player model on spy disguise
+event MovePlayerIconOn
+{
+	Animate HudPlayerClass	xpos	0	Linear 0.01 0.001
+	Animate ModelPin	xpos	0	Linear 0.01 0.001
+
+}
+event MovePlayerIconOff
+{
+	Animate HudPlayerClass	xpos	-200	Linear 0.0 0.001
+	Animate ModelPin	xpos		200	Linear 0.0 0.001
+}
 event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	RunEventChild DisguiseDust playdisguiseparticles 0.0
-	Animate HudPlayerClass	xpos	0	Linear 0.01 0.001
-	Animate ModelPin	xpos	0	Linear 0.01 0.001
+	RunEvent MovePlayerIconOn 0
 }
 
 event HudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate HudPlayerClass	xpos	-200	Linear 0.0 0.001
-	Animate ModelPin	xpos		200	Linear 0.0 0.001
+	RunEvent MovePlayerIconOff 0
 }
 event HudSpyDisguiseChanged
 {
