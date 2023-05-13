@@ -10,8 +10,8 @@ event DamagedPlayer
 {
 	StopEvent AnimateHitmarker 0.0
 	RunEvent AnimateHitmarker 0.001
-	Animate HudPlayerClass	xpos	-1000		Linear 0.0 0.1
-	Animate ModelPin		xpos	1000			Linear 0.0 0.1
+	StopEvent HudSpyDisguiseFadeOut	0.0
+	RunEvent HudSpyDisguiseFadeOut 0.1
 }
 
 event AnimateHitmarker
@@ -184,24 +184,16 @@ event HudTournamentSetupPanelClose
 event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
-
 	RunEventChild DisguiseDust playdisguiseparticles 0.0
-	Animate HudPlayerClass	xpos	0	Linear 0.01 0.1
-	Animate ModelPin			xpos	0	Linear 0.01 0.1
+	Animate ModelPin				Position	"0 r200"				Linear 0.0 0.5
 
-	SetVisible Disguising	1 0.0
-	SetVisible Disguising	0 1.0
-	SetVisible DisguisingShadow	1 0.0
-	SetVisible DisguisingShadow	0 1.0
 
 }
 
 event HudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
-
-	Animate HudPlayerClass	xpos	-1000		Linear 0.0 0.1
-	Animate ModelPin		xpos	1000			Linear 0.0 0.1
+	Animate ModelPin				Position	"9999 9999"				Linear 0.0 0.5
 }
 event playdisguiseparticles
 {
@@ -209,18 +201,15 @@ event playdisguiseparticles
 }
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
-	
-	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
-
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"				Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"		Linear 0.0 0.2
 	RunEvent HudSpyDisguiseHide	0.7
 }
 event HudSpyDisguiseHide
 {
 	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
-	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
 //==============================================================================
