@@ -607,6 +607,20 @@
 			}
 		}
 	}	
+	"newspyoutline"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"newspyoutline"
+		"xpos"			"3"
+		"ypos"			"r67"	
+		"zpos"			"7"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/spyoutline/konataoutline"
+		"scaleImage"	"1"	
+	}	
 	StatPanel
 	{"xpos"	"9999"	"visible"	"0"}
 	FreezePanelCallout

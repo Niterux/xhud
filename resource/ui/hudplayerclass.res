@@ -4,10 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"		"0"
+		"xpos"		"-200"
 		"ypos"		"0"
 		"zpos"		"1"
-		"wide"		"f0"
+		"wide"		"500"
+		"wide_minmode"		"200"
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -17,8 +18,8 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"ModelPin"
-		"xpos"		"9999"
-		"ypos"		"9999"
+		"xpos"		"200"
+		"ypos"		"r200"
 		"zpos"		"2"
 		"wide"		"1"
 		"tall"		"1"
@@ -178,19 +179,7 @@
 	"PlayerStatusSpyImage"	// All needed to register class changes / disguises
 	{"ControlName"	"CTFImagePanel"}
 	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"
-		"ypos"			"r67"	
-		"zpos"			"7"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/spyoutline/konataoutline"
-		"scaleImage"	"1"	
-	}		
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 	"PlayerStatusClassImageBG"
 	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 	"classmodelpanelBG"
