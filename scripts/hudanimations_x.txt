@@ -183,23 +183,46 @@ event HudTournamentSetupPanelClose
 // Show player model on spy disguise
 event HudSpyDisguiseFadeIn
 {
+	RunEvent HudSpyDisguiseChanged	0
+
+	RunEventChild DisguiseDust playdisguiseparticles 0.0
 	Animate HudPlayerClass	xpos	0	Linear 0.01 0.001
-	Animate ModelPin	xpos	0	Linear 0.01 0.001
+	Animate ModelPin			xpos	0	Linear 0.01 0.001
 
 	SetVisible Disguising	1 0.0
 	SetVisible Disguising	0 1.0
 	SetVisible DisguisingShadow	1 0.0
 	SetVisible DisguisingShadow	0 1.0
+
 }
 
 event HudSpyDisguiseFadeOut
 {
-	Animate HudPlayerClass	xpos	-200	Linear 0.0 0.001
-	Animate ModelPin	xpos	200	Linear 0.0 0.001
+	RunEvent HudSpyDisguiseChanged	0
+
+	Animate HudPlayerClass	xpos	-1000		Linear 0.0 0.001
+	Animate ModelPin		xpos	1000			Linear 0.0 0.001
 }
+event playdisguiseparticles
+{
+	FireCommand 0 "start0"
+}
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
 
-event HudSpyDisguiseChanged{}
-
+	RunEvent HudSpyDisguiseHide	0.7
+}
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
 //==============================================================================
 
 //Chat

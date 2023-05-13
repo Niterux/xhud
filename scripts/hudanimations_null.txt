@@ -17,8 +17,6 @@ event AccountMoneyAdded{}
 event AccountMoneyInvisible{}
 event FlagOutlineHide{}
 event FlagOutline{}
-event HudSpyDisguiseChanged{}
-event HudSpyDisguiseHide{}
 event OvertimeShow{}
 //event HudSnapShotReminderIn{}	//USED
 event HudReplayReminderIn{}
@@ -88,7 +86,9 @@ event HudTournament_ShowRoundSign{}
 event HudTournament_PlaySignAnim{}
 event HudMatchStatus_ShowMatchWinDoors{}
 event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
-event MMenu_PlayList_Expand{}
+event MMenu_PlayList_Expand{
+Animate DashboardDimmer ypos 470 Spline 0.1 0.4
+}
 event MMenu_PlayList_Collapse{}
 event MMenu_PlayList_Collapse_Immediate{}
 event MMenu_SafeMode_Blink{}

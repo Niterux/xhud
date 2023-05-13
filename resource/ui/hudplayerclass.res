@@ -7,8 +7,8 @@
 		"xpos"		"-200"
 		"ypos"		"0"
 		"zpos"		"1"
-		"wide"		"500"
-		"wide_minmode"		"200"
+		"wide"		"800"
+		"wide_minmode"		"800"
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"ModelPin"
-		"xpos"		"200"
+		"xpos"		"1000"
 		"ypos"		"r200"
 		"zpos"		"2"
 		"wide"		"1"
@@ -179,7 +179,19 @@
 	"PlayerStatusSpyImage"	// All needed to register class changes / disguises
 	{"ControlName"	"CTFImagePanel"}
 	"PlayerStatusSpyOutlineImage"
-	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyOutlineImage"
+		"xpos"			"3"
+		"ypos"			"r67"	
+		"zpos"			"7"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/spyoutline/konataoutline"
+		"scaleImage"	"1"	
+	}		
 	"PlayerStatusClassImageBG"
 	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 	"classmodelpanelBG"
