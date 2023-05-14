@@ -67,8 +67,6 @@ event QuestNotification_Present{}
 event QuestNotification_Hide{}
 event ItemCard_ShowPinHint{}
 event ItemCard_HidePinHint{}
-event StartParticle0{}
-event StartParticle1{}
 event StartParticle2{}
 event CollectionCrafting_OKBlink_Repeatable{}
 event CollectionCrafting_OKBlink{}
