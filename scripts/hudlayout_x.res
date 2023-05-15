@@ -392,7 +392,7 @@
 		"MinimumWidth"		"100"
 		"MaximumWidth"		"100"
 		"StartRadius"		"80"
-		"EndRadius"			"160"
+		"EndRadius"		"160"
 		"MinimumHeight"		"40"
 		"MaximumHeight"		"40"
 		"MinimumTime"		"1.0"
@@ -458,6 +458,39 @@
 		"ItemFadeInTime"	"0"
 		"ItemFadeOutTime"	"0.1"
 		"topoffset"		"0"
+	}
+
+	HudVoiceSelfStatus
+	{
+		"xpos"	"r32"
+		"ypos"	"400"
+		"wide"	"32"
+		"tall"	"32"
+	}
+
+	HudVoiceStatus
+	{
+		"xpos"	"rs1"
+		"ypos"	"0"
+		"wide"	"123"
+		"tall"	"400"
+
+		"item_wide"	"120"
+		"item_tall"	"10"
+
+		"show_avatar"	"1"
+		"avatar_xpos"	"104"
+		"avatar_wide"	"10"
+		"avatar_tall"	"10"
+
+		"show_dead_icon"	"1"
+		"dead_xpos"		"-1"
+		"dead_wide"		"10"
+		"dead_tall"		"10"
+
+		"show_voice_icon"	"0"
+
+		"text_xpos"		"8"
 	}
 
 	HudControlPointIcons
