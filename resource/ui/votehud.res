@@ -555,7 +555,7 @@
 			"bgcolor_override"	"TransparentBlack"
 			"disabledFgColor_override" "WhiteGray"
 			"disabledBgColor_override" "TransparentBlack"
-			"selectionColor_override" "MainTheme"
+			"selectionColor_override" "0 0 0 0"
 			"selectionTextColor_override" "MainTheme"
 			"defaultSelectionBG2Color_override" "TransparentBlack"
 		}
