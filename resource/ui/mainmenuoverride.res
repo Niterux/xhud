@@ -4509,6 +4509,25 @@
 		}
 	}	
 
+	"Artist"
+	{
+		"ControlName"			"URLLabel"
+		"fieldName"			"Artist"
+		"xpos"				"3"
+		"ypos"				"437"
+		"zpos"				"50"
+		"wide"				"160"
+		"tall"				"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"			"Artist: XilmO
+https://www.pixiv.net/en/users/19389056"
+		"textAlignment"			"north-west"
+		"font"				"Artist"
+		"urlText"				"https://www.pixiv.net/en/users/19389056"
+		"fgcolor_override"		"White"
+	}
+
 	"Background"
 	{"fieldName"	"Background"	"xpos"	"9999"}
 	"TFCharacterImage"
