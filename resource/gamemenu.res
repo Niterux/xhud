@@ -158,4 +158,33 @@
 		"tooltip"		"Reload HUD"
 		"OnlyInGame"	"1"
 	}
+
+	"bgdimmer"
+	{
+		"label"	" "
+		"command"	" "
+		"OnlyAtMenu"	"1"
+	}
+
+	"snow"
+	{
+		"label"	" "
+		"command"	" "
+		"OnlyAtMenu"	"1"
+	}
+
+	"fire"
+	{
+		"label"	" "
+		"command"	" "
+		"OnlyAtMenu"	"1"
+	}
+
+	"tentglow"
+	{
+		"label"	" "
+		"command"	" "
+		"OnlyAtMenu"	"1"
+	}
+
 }

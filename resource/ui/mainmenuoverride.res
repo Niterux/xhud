@@ -1,6 +1,5 @@
 #base "vtfpreload.res"
 #base "radialpreload.res"
-#base "titlescreenrain.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -4375,6 +4374,140 @@
 			"pin_to_sibling_corner" "2"
 		}
 	}
+	//title screen particles
+	//do not change the particle panels to not use percentage width, this is done
+	//on purpose in combination with the center positioning on the particles
+	//themselves so that everything scales "properly" and doesn't get offset at
+	//odd aspect ratios
+	"bgdimmer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"		"bgdimmer"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"f0"
+		"visible"		"1"
+		"bgcolor_override"	"0 0 0 150"
+	}
+
+	"snow"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"snow"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-61"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"proportionaltoparent"	"1"
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos"		"c0"
+				"particle_ypos"		"600"
+				"particle_scale"		"1"
+				"particleName"		"env_snow_light_001"
+				"start_activated"	"1"
+				"loop"			"1"
+				"angles"			"0 0 0"
+			}
+		}
+	}
+
+	"fire"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"fire"
+		"xpos"			"p0.565"
+		"ypos"			"100"
+		"zpos"			"-61"
+		"wide"			"p0.3"
+		"tall"			"360"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"proportionaltoparent"	"1"
+		"ParticleEffects"
+		{
+			"0" //smoke
+			{
+				"particle_xpos"		"c0"
+				"particle_ypos"		"280"
+				"particle_scale"		"4.2"
+				"particleName"		"buildingdamage_smoke3"
+				"start_activated"	"1"
+				"loop"			"1"
+				"angles"			"0 0 0"
+			}
+			"1" //embers
+			{
+				"particle_xpos"		"c0"
+				"particle_ypos"		"300"
+				"particle_scale"		"0.40"
+				"particleName"		"cauldron_embers"
+				"start_activated"	"1"
+				"loop"			"1"
+				"angles"			"0 0 0"
+			}
+
+			"2" //glow
+			{
+				"particle_xpos"		"c0"
+				"particle_ypos"		"280"
+				"particle_scale"		"1.0"
+				"particleName"		"phlo_stream_glow_unlocked"
+				"start_activated"	"1"
+				"loop"			"1"
+				"angles"			"0 0 0"
+			}
+
+			"3" //fire
+			{
+				"particle_xpos"		"c0"
+				"particle_ypos"		"280"
+				"particle_scale"		"3.3"
+				"particleName"		"buildingdamage_fire3"
+				"start_activated"	"1"
+				"loop"			"1"
+				"angles"			"0 0 0"
+				"control_point0"		"200 0 0" //needed to make it render for some reason
+			}
+		}
+	}
+
+	"tentglow"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"tentglow"
+		"xpos"			"p0.232"
+		"ypos"			"265"
+		"zpos"			"-61"
+		"wide"			"p0.3"
+		"tall"			"200"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"proportionaltoparent"	"1"
+		"ParticleEffects"
+		{
+			"0" //glow
+			{
+				"particle_xpos"		"c0"
+				"particle_ypos"		"c0"
+				"particle_scale"		"0.4"
+				"particleName"		"phlo_stream_glow_unlocked"
+				"start_activated"	"1"
+				"loop"			"1"
+				"angles"			"0 0 0"
+			}
+		}
+	}	
 
 	"Background"
 	{"fieldName"	"Background"	"xpos"	"9999"}
