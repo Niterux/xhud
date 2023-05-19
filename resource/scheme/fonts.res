@@ -10,8 +10,6 @@ Scheme
 				"tall"	"10"
 				"outline"	"1"
 				"antialias"	"1"
-				"scalex"		"5.0"
-				"scaley"		"5.0"
 			}
 		}
 		"Size 7"

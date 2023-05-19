@@ -186,5 +186,12 @@
 		"command"	" "
 		"OnlyAtMenu"	"1"
 	}
+	
+	"Artist"
+	{
+		"label"	" "
+		"command"	" "
+		"OnlyAtMenu"	"1"
+	}
 
 }
