@@ -70,6 +70,13 @@
 		"tooltip"		"Achievements"
 	}
 
+	"ReloadTF2"
+	{
+		"label"			"."
+		"command"		"RestartWithNewLanguage"
+		"tooltip"		"Reload TF2"
+	}
+
 	"Quit"
 	{
 		"label"			"Quit"
@@ -159,39 +166,10 @@
 		"OnlyInGame"	"1"
 	}
 
-	"bgdimmer"
+	"interactiveBackground"
 	{
 		"label"	" "
 		"command"	" "
 		"OnlyAtMenu"	"1"
 	}
-
-	"snow"
-	{
-		"label"	" "
-		"command"	" "
-		"OnlyAtMenu"	"1"
-	}
-
-	"fire"
-	{
-		"label"	" "
-		"command"	" "
-		"OnlyAtMenu"	"1"
-	}
-
-	"tentglow"
-	{
-		"label"	" "
-		"command"	" "
-		"OnlyAtMenu"	"1"
-	}
-	
-	"Artist"
-	{
-		"label"	" "
-		"command"	" "
-		"OnlyAtMenu"	"1"
-	}
-
 }

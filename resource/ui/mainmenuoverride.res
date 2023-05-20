@@ -900,6 +900,44 @@
 		}
 	}
 
+	"ReloadTF2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ReloadTF2"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"Achievements"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 22"
+			"textAlignment"		"center"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
 	"Quit"
 	{
 		"ControlName"		"EditablePanel"
@@ -4379,155 +4417,164 @@
 	//on purpose in combination with the center positioning on the particles
 	//themselves so that everything scales "properly" and doesn't get offset at
 	//odd aspect ratios
-	"bgdimmer"
+	"interactiveBackground"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"		"bgdimmer"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"f0"
-		"visible"		"1"
-		"bgcolor_override"	"0 0 0 150"
-	}
-
-	"snow"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"snow"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-61"
+		"fieldName"		"interactiveBackground"
 		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"proportionaltoparent"	"1"
-		"ParticleEffects"
+		"tall"			"480"
+		"zpos"			"-100"
+
+		"bgdimmer"
 		{
-			"0"
+			"ControlName"		"EditablePanel"
+			"fieldname"		"bgdimmer"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"-100"
+			"wide"		"f0"
+			"tall"		"f0"
+			"visible"		"1"
+			"bgcolor_override"	"0 0 0 150"
+		}
+
+		"snow"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"snow"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-61"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"0"
+			"proportionaltoparent"	"1"
+			"ParticleEffects"
 			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"600"
-				"particle_scale"		"1"
-				"particleName"		"env_snow_light_001"
-				"start_activated"	"1"
-				"loop"			"1"
-				"angles"			"0 0 0"
+				"0"
+				{
+					"particle_xpos"		"c0"
+					"particle_ypos"		"600"
+					"particle_scale"		"1"
+					"particleName"		"env_snow_light_001"
+					"start_activated"	"1"
+					"loop"			"1"
+					"angles"			"0 0 0"
+				}
 			}
 		}
-	}
 
-	"fire"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"fire"
-		"xpos"			"p0.565"
-		"ypos"			"100"
-		"zpos"			"-61"
-		"wide"			"p0.3"
-		"tall"			"360"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"proportionaltoparent"	"1"
-		"ParticleEffects"
+		"fire"
 		{
-			"0" //smoke
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"fire"
+			"xpos"			"p0.565"
+			"ypos"			"100"
+			"zpos"			"-61"
+			"wide"			"p0.3"
+			"tall"			"360"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"0"
+			"proportionaltoparent"	"1"
+			"ParticleEffects"
 			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"280"
-				"particle_scale"		"4.2"
-				"particleName"		"buildingdamage_smoke3"
-				"start_activated"	"1"
-				"loop"			"1"
-				"angles"			"0 0 0"
-			}
-			"1" //embers
-			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"300"
-				"particle_scale"		"0.40"
-				"particleName"		"cauldron_embers"
-				"start_activated"	"1"
-				"loop"			"1"
-				"angles"			"0 0 0"
-			}
+				"0" //smoke
+				{
+					"particle_xpos"		"c0"
+					"particle_ypos"		"280"
+					"particle_scale"		"4.2"
+					"particleName"		"buildingdamage_smoke3"
+					"start_activated"	"1"
+					"loop"			"1"
+					"angles"			"0 0 0"
+				}
 
-			"2" //glow
-			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"280"
-				"particle_scale"		"1.0"
-				"particleName"		"phlo_stream_glow_unlocked"
-				"start_activated"	"1"
-				"loop"			"1"
-				"angles"			"0 0 0"
-			}
+				"1" //embers
+				{
+					"particle_xpos"		"c0"
+					"particle_ypos"		"300"
+					"particle_scale"		"0.40"
+					"particleName"		"cauldron_embers"
+					"start_activated"	"1"
+					"loop"			"1"
+					"angles"			"0 0 0"
+				}
 
-			"3" //fire
-			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"280"
-				"particle_scale"		"3.3"
-				"particleName"		"buildingdamage_fire3"
-				"start_activated"	"1"
-				"loop"			"1"
-				"angles"			"0 0 0"
-				"control_point0"		"200 0 0" //needed to make it render for some reason
+				"2" //glow
+				{
+					"particle_xpos"		"c0"
+					"particle_ypos"		"280"
+					"particle_scale"		"1.0"
+					"particleName"		"phlo_stream_glow_unlocked"
+					"start_activated"	"1"
+					"loop"			"1"
+					"angles"			"0 0 0"
+				}
+
+				"3" //fire
+				{
+					"particle_xpos"		"c0"
+					"particle_ypos"		"280"
+					"particle_scale"		"3.3"
+					"particleName"		"buildingdamage_fire3"
+					"start_activated"	"1"
+					"loop"			"1"
+					"angles"			"0 0 0"
+					"control_point0"		"200 0 0" //needed to make it render for some reason
+				}
 			}
 		}
-	}
 
-	"tentglow"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"tentglow"
-		"xpos"			"p0.232"
-		"ypos"			"265"
-		"zpos"			"-61"
-		"wide"			"p0.3"
-		"tall"			"200"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"proportionaltoparent"	"1"
-		"ParticleEffects"
+		"tentglow"
 		{
-			"0" //glow
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"tentglow"
+			"xpos"			"p0.232"
+			"ypos"			"265"
+			"zpos"			"-61"
+			"wide"			"p0.3"
+			"tall"			"200"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"0"
+			"proportionaltoparent"	"1"
+			"ParticleEffects"
 			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"c0"
-				"particle_scale"		"0.4"
-				"particleName"		"phlo_stream_glow_unlocked"
-				"start_activated"	"1"
-				"loop"			"1"
-				"angles"			"0 0 0"
+				"0" //glow
+				{
+					"particle_xpos"		"c0"
+					"particle_ypos"		"c0"
+					"particle_scale"		"0.4"
+					"particleName"		"phlo_stream_glow_unlocked"
+					"start_activated"	"1"
+					"loop"			"1"
+					"angles"			"0 0 0"
+				}
 			}
-		}
-	}	
+		}	
 
-	"Artist"
-	{
-		"ControlName"			"URLLabel"
-		"fieldName"			"Artist"
-		"xpos"				"3"
-		"ypos"				"437"
-		"zpos"				"50"
-		"wide"				"160"
-		"tall"				"20"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"			"Artist: XilmO
+		"Artist"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"			"Artist"
+			"xpos"				"3"
+			"ypos"				"437"
+			"zpos"				"50"
+			"wide"				"160"
+			"tall"				"20"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"			"Artist: XilmO
 https://www.pixiv.net/en/users/19389056"
-		"textAlignment"			"north-west"
-		"font"				"Artist"
-		"urlText"				"https://www.pixiv.net/en/users/19389056"
-		"fgcolor_override"		"White"
+			"textAlignment"			"north-west"
+			"font"				"Artist"
+			"urlText"				"https://www.pixiv.net/en/users/19389056"
+			"fgcolor_override"		"White"
+		}
 	}
-
 	"Background"
 	{"fieldName"	"Background"	"xpos"	"9999"}
 	"TFCharacterImage"
