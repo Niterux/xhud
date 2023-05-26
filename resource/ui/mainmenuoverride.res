@@ -4420,7 +4420,7 @@
 			"wide"		"284"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;hud_reloadscheme;cl_mainmenu_safemode 0;mat_queue_mode -1"
+			"Command"		"engine xhudsave;cl_mainmenu_safemode 0"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
