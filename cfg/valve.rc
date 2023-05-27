@@ -1,4 +1,3 @@
 exec autoexec.cfg
-exec xhud.cfg
-exec x_binds.cfg
+exec custom.cfg
 stuffcmds
