@@ -7,8 +7,6 @@ event TimerDecrement{}
 event ResourceIncrement{}
 event ResourceDecrement{}
 event ResourcePickup{}
-event HudHealthBonusPulseLoop{}
-event HudHealthDyingPulseLoop{}
 event HudLowAmmoPulseLoop{}
 event ControlPointIconShrink{}
 event ControlPointIconGrow{}

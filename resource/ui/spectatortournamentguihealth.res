@@ -77,6 +77,23 @@
 		"proportionaltoparent"		"1"
 	}
 
+	"PlayerStatusHealthValueOverheal"
+	{
+		"ControlName"	"CExLabel"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"11"
+		"wide"			"28"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"Size 16"
+		"fgcolor"		"GrayDarkest"
+		"proportionaltoparent"		"1"
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"

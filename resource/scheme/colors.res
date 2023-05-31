@@ -22,7 +22,10 @@ Scheme
 		"TransparentLightBlack"							"0 0 0 100"
 		"TransparentGrayDarkest"						"27 28 30 200"
 		"TransparentWhite"								"227 228 230 150"
-
+		
+		"Minthud Green"									"0 255 100 255"
+		"Minthud RedHealth1"											"250 80 80 255"
+		"Minthud RedHealth2"											"160 50 50 255"
 		//===============================================================
 		// ITEM QUALITY COLORS
 		//===============================================================

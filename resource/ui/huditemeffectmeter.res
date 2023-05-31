@@ -10,8 +10,6 @@
 		"ypos"		"c103"
 		"wide"		"80"
 		"tall"		"20"
-		"MeterFG"		"White"
-		"MeterBG"		"Blank"
 	}
 
 	"ItemEffectMeterLabel"

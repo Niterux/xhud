@@ -59,34 +59,43 @@ event LevelInit{}		//Eventually useful
 
 event HudHealthBonusPulse
 {
-	SetVisible HealthBarOverheal 1 0.0
+	SetVisible	PlayerStatusHealthValueOverheal		1		0.0
+	Animate PlayerStatusHealthValueOverheal		FgColor	"0 255 100 255"		Spline	0.0	0.075
+	Animate PlayerStatusHealthValueOverheal		FgColor	"128 255 178 255"	Spline	0.2	0.075
+	RunEvent HudHealthBonusPulseLoop		0.4
+}
 
-	SetVisible HealthBarLowHealth 0 0.0
-
-	SetVisible HealthSpectatorBarBuff 1 0.0
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse		0.01
 }
 
 event HudHealthBonusPulseStop
 {
-	SetVisible HealthBarOverheal 0 0.0
-
-	SetVisible HealthBarLowHealth 1 0.0
-
-	SetVisible HealthSpectatorBarBuff 0 0.0
+	SetVisible	PlayerStatusHealthValueOverheal		0		0.0
+	StopEvent HudHealthBonusPulse 0.01
+	StopEvent HudHealthBonusPulseLoop 0.01
 }
-
-//==============================================================================
 
 event HudHealthDyingPulse
 {
-	SetVisible HealthSpectatorBarHurt 1 0.0
+	SetVisible	PlayerStatusHealthValueOverheal		1		0.0
+	Animate PlayerStatusHealthValueOverheal		FgColor	"Minthud RedHealth1"		Spline 	0.0	0.075
+	Animate PlayerStatusHealthValueOverheal		FgColor	"Minthud RedHealth2"		Spline	0.2	0.075
+	RunEvent HudHealthDyingPulseLoop		0.4
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse				0.01
 }
 
 event HudHealthDyingPulseStop
 {
-	SetVisible HealthSpectatorBarHurt 0 0.0
+	SetVisible	PlayerStatusHealthValueOverheal		0		0.0
+	StopEvent HudHealthDyingPulse 0.01
+	StopEvent HudHealthDyingPulseLoop 0.01
 }
-
 //==============================================================================
 
 event HudLowAmmoPulse

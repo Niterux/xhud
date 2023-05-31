@@ -174,5 +174,21 @@
 			"font"			"Size 16"
 			"fgcolor"		"Ammo"
 		}
+
+		"PlayerStatusHealthValueOverheal"
+		{
+			"ControlName"	"CExLabel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"36"
+			"tall"			"14"
+			"visible"		"0"
+			"enabled"		"1"
+			"labelText"		"%Health%"
+			"textAlignment"		"center"
+			"font"			"Size 16"
+			"fgcolor"		"Ammo"
+		}
 	}
 }
