@@ -59,42 +59,54 @@ event LevelInit{}		//Eventually useful
 
 event HudHealthBonusPulse
 {
-	SetVisible	PlayerStatusHealthValueOverheal		1		0.0
+	SetVisible	PlayerStatusHealthValueOverheal		1		0.1
+	RunEvent	DelayedHudHealthBonusPulse	0.1
+}
+
+event DelayedHudHealthBonusPulse
+{
 	Animate PlayerStatusHealthValueOverheal		FgColor	"0 255 100 255"		Spline	0.0	0.075
 	Animate PlayerStatusHealthValueOverheal		FgColor	"128 255 178 255"	Spline	0.2	0.075
-	RunEvent HudHealthBonusPulseLoop		0.4
+	RunEvent HudHealthBonusPulseLoop		0.275
 }
 
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse		0.01
+	RunEvent DelayedHudHealthBonusPulse		0.0
 }
 
 event HudHealthBonusPulseStop
 {
-	SetVisible	PlayerStatusHealthValueOverheal		0		0.0
-	StopEvent HudHealthBonusPulse 0.01
-	StopEvent HudHealthBonusPulseLoop 0.01
+	FireCommand 0 "reloadscheme"
+	StopEvent HudHealthBonusPulse 0
+	StopEvent DelayedHudHealthBonusPulse 0
+	StopEvent HudHealthBonusPulseLoop 0
 }
 
 event HudHealthDyingPulse
 {
-	SetVisible	PlayerStatusHealthValueOverheal		1		0.0
+	SetVisible	PlayerStatusHealthValueOverheal		1		0.1
+	RunEvent DelayedHudHealthDyingPulse 0.1
+}
+
+event DelayedHudHealthDyingPulse
+{
 	Animate PlayerStatusHealthValueOverheal		FgColor	"Minthud RedHealth1"		Spline 	0.0	0.075
 	Animate PlayerStatusHealthValueOverheal		FgColor	"Minthud RedHealth2"		Spline	0.2	0.075
-	RunEvent HudHealthDyingPulseLoop		0.4
+	RunEvent HudHealthDyingPulseLoop		0.275
 }
 
 event HudHealthDyingPulseLoop
 {
-	RunEvent HudHealthDyingPulse				0.01
+	RunEvent DelayedHudHealthDyingPulse				0.0
 }
 
 event HudHealthDyingPulseStop
 {
-	SetVisible	PlayerStatusHealthValueOverheal		0		0.0
-	StopEvent HudHealthDyingPulse 0.01
-	StopEvent HudHealthDyingPulseLoop 0.01
+	FireCommand 0 "reloadscheme"
+	StopEvent HudHealthBonusPulseLoop 0
+	StopEvent DelayedHudHealthDyingPulse 0
+	StopEvent HudHealthDyingPulseLoop 0
 }
 //==============================================================================
 
@@ -288,4 +300,28 @@ event StopParticle0
 event StopParticle1
 {
 	FireCommand 0 "stop1"
+}
+
+//=-=-=-=-=-=
+
+event MapOff
+{
+RunEvent testifthisshitworks 0.0
+}
+event MapZoomToSmall
+{
+RunEvent testifthisshitworks 0.0
+}
+event MapZoomToLarge
+{
+RunEvent testifthisshitworks 0.0
+}
+
+event testifthisshitworks 
+{
+RunEventChild MainMenuOverride TestRunCommand 0.0	
+}
+event TestRunCommand
+{
+FireCommand 0.0 "engine echo IT WORKS!!!"
 }

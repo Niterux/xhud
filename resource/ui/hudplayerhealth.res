@@ -15,6 +15,7 @@
 		"HealthDeathWarning"		"0.3"
 		"HealthDeathWarningColor"	"Blank"
 	}
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"visible"		"0"
