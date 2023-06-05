@@ -258,7 +258,7 @@
 		"xpos"			"5"
 		"NormalY"			"40"
 		"EngineerY"		"40"
-		"zpos"			"2"
+		"zpos"			"-100"
 		"wide"			"280"
 		"tall"			"280"
 		"visible"		"1"
