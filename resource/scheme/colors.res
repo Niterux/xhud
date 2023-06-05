@@ -26,6 +26,8 @@ Scheme
 		"Minthud Green"									"0 255 100 255"
 		"Minthud RedHealth1"											"250 80 80 255"
 		"Minthud RedHealth2"											"160 50 50 255"
+		"Minthud GreenHealth1"							"0 255 100 255"
+		"Minthud GreenHealth2"							"128 255 178 255"
 		//===============================================================
 		// ITEM QUALITY COLORS
 		//===============================================================
