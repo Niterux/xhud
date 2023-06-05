@@ -14,6 +14,6 @@
 		"textAlignment"	"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
-		"fgcolor_override"		"WhiteFull"
+		"fgcolor_override"		"Health"
 	}
 }

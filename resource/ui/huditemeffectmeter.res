@@ -70,6 +70,16 @@
 		"enabled"		"1"
 		"textAlignment"		"Left"
 		"proportionaltoparent"		"1"
-		"bgcolor_override"		"TransparentGrayDarkest"
+		"bgcolor_override"	"61 54 0 170"
+	}
+
+	"Overlay"	//used to workaround meterfg removal to implement an offwhite color
+	{
+		"ControlName"	"Panel"
+		"zpos"	"3"
+		"wide"	"f0"
+		"tall"	"2"
+		"visible"	"1"
+		"bgcolor_override"	"0 50 90 57"
 	}
 }
