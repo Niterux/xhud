@@ -150,8 +150,8 @@ Scheme
 		Frame.TitleTextInsetX							"14"
 		Frame.ClientInsetY								"9"
 		Frame.ClientInsetX								"8"
-		Frame.FocusTransitionEffectTime		"0.1"
-		Frame.TransitionEffectTime				"0.1"
+		Frame.FocusTransitionEffectTime		"0.0"
+		Frame.TransitionEffectTime				"0.0"
 		Frame.AutoSnapRange								"0"
 		FrameTitleButton.BgColor					"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
@@ -181,7 +181,7 @@ Scheme
 
 		PropertySheet.TextColor							"OffWhite"
 		PropertySheet.SelectedTextColor			"White"
-		PropertySheet.TransitionEffectTime	"0.1"
+		PropertySheet.TransitionEffectTime	"0.0"
 
 		RichText.TextColor					"OffWhite"
 		RichText.BgColor						"DarkBG"

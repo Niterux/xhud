@@ -298,8 +298,7 @@ Scheme
 		Frame.OutOfFocusBgColor							"TransparentBlack"
 		Frame.FocusTransitionEffectTime					"0.0"
 		Frame.TransitionEffectTime						"0.0"
-		Frame.FocusTransitionEffectTime					"0.15"
-		Frame.TransitionEffectTime						"0.15"
+		Frame.FocusTransitionEffectTime					"0.0"
 		Frame.AutoSnapRange								"0"
 		FrameGrip.Color1								"Blank"
 		FrameGrip.Color2								"Blank"
@@ -359,7 +358,7 @@ Scheme
 
 		PropertySheet.TextColor							"White"
 		PropertySheet.SelectedTextColor					"White"
-		PropertySheet.TransitionEffectTime				"0.25"
+		PropertySheet.TransitionEffectTime				"0.0"
 
 		RadioButton.TextColor							"White"
 		RadioButton.SelectedTextColor					"White"
