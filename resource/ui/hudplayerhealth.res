@@ -12,7 +12,7 @@
 		"tall"		"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"HealthDeathWarning"		"1.0"
+		"HealthDeathWarning"		"0.3"
 		"HealthDeathWarningColor"	"Blank"
 	}
 
