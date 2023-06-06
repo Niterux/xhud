@@ -29,10 +29,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"HealthBonusPosAdj"	"42"
-			"HealthDeathWarning"	"1"
+			"HealthDeathWarning"	"0.3"
 			"TFFont"		"Size 16"
 			"textAlignment"		"center"
-			"HealthDeathWarningColor"	"Low Health"
+			"HealthDeathWarningColor"	"Blank"
 			"TextColor"		"GrayDarkest"
 			"proportionaltoparent"		"1"
 		}

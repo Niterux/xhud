@@ -152,10 +152,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"HealthBonusPosAdj"	"0"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"0.3"
 		"TFFont"		"Size 16"
 		"textAlignment"		"center"
-		"HealthDeathWarningColor"	"Low Health"
+		"HealthDeathWarningColor"	"Blank"
 		"TextColor"		"GrayDarkest"
 		
 		"PlayerStatusHealthValue"

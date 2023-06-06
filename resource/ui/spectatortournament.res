@@ -45,7 +45,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"HealthBonusPosAdj"		"0"
-				"HealthDeathWarning"		"0"
+				"HealthDeathWarning"		"0.3"
 				"paintbackground"		"0"
 				"TFFont"		"Size 16"
 				"TextColor"		"GrayDarkest"
