@@ -705,7 +705,7 @@
 		"labelText"		"2"
 		"font"		"Symbols 22"
 		"textAlignment"		"center"
-		"urlText"		"https://github.com/PapaPeach/xhud"
+		"urlText"		"https://github.com/Niterux/xhud"
 
 		"fgcolor_override"		"White"
 	}
