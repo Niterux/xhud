@@ -66,7 +66,7 @@
 	"Achievements"
 	{
 		"label"			"U"
-		"command"		"engine echo OpenAchievementsDialog"
+		"command"		"OpenAchievementsDialog"
 		"tooltip"		"Achievements"
 	}
 
