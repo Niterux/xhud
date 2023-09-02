@@ -1,3 +1,10 @@
 exec autoexec.cfg
+<<<<<<< HEAD
 exec custom.cfg
 stuffcmds
+=======
+exec xhud.cfg
+cl_hud_minmode 0
+stuffcmds
+sv_unlockedchapters 0
+>>>>>>> 01ae8a6 (Added streamer mode)
