@@ -61,7 +61,7 @@ event HudHealthBonusPulse
 {
 	SetVisible	PlayerStatusHealthValueOverheal		1		0.1
 	SetVisible	PlayerStatusHealthValue			0		0.1
-	RunEvent	DelayedHudHealthBonusPulse	0.1
+	RunEvent	DelayedHudHealthBonusPulse		0.1
 }
 
 event DelayedHudHealthBonusPulse
@@ -78,17 +78,17 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
-	FireCommand 0 "reloadscheme"
 	StopEvent HudHealthBonusPulse 0
 	StopEvent DelayedHudHealthBonusPulse 0
 	StopEvent HudHealthBonusPulseLoop 0
+	FireCommand 0 "reloadscheme"
 }
 
 event HudHealthDyingPulse
 {
 	SetVisible	PlayerStatusHealthValueOverheal		1		0.1
 	SetVisible	PlayerStatusHealthValue			0		0.1
-	RunEvent DelayedHudHealthDyingPulse 0.1
+	RunEvent	DelayedHudHealthDyingPulse		0.1
 }
 
 event DelayedHudHealthDyingPulse
@@ -105,10 +105,10 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	FireCommand 0 "reloadscheme"
-	StopEvent HudHealthDyingPulseLoop 0
+	StopEvent HudHealthDyingPulse 0
 	StopEvent DelayedHudHealthDyingPulse 0
 	StopEvent HudHealthDyingPulseLoop 0
+	FireCommand 0 "reloadscheme"
 }
 //==============================================================================
 
