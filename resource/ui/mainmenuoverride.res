@@ -448,9 +448,9 @@
 					"fgcolor_override"		"White"
 				}
 				"UpButton"
-				{"FieldName"	"UpButton"	"xpos"	"9999"}
+				{"visible"	"0"}
 				"DownButton"
-				{"FieldName"	"DownButton"	"xpos"	"9999"}
+				{"visible"	"0"}
 			}
 		}
 	}
@@ -4597,7 +4597,7 @@ https://www.pixiv.net/en/users/19389056"
 			"textAlignment"			"north-west"
 			"font"				"Artist"
 			"urlText"				"https://www.pixiv.net/en/users/19389056"
-			"fgcolor_override"		"White"
+			"fgcolor_override" 		"White"
 		}
 	}
 	"Background"
