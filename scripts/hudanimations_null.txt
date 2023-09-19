@@ -104,7 +104,6 @@ event MMenu_UpdateButton_SubtleGlow{}
 event XPSourceShow_Positive{}
 event XPSourceShow_Negative{}
 event SurveySubmitSequence{}
-event SurveyDelete{}
 event SurveyHideSequence{}
 event MapVoted{}
 event HudTakeDamageFront{}

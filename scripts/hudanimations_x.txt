@@ -306,5 +306,5 @@ event StopParticle1
 
 event SurveyShowSequence
 {
-	FireCommand 0.05 "delete"
+	RunEventChild	Survey	SurveyDelete		0.1
 }
