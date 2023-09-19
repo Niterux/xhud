@@ -4,3 +4,6 @@
 **/*.res linguist-detectable=true
 
 .gitattributes export-ignore
+README.md export-ignore
+sound/ui/audacityprojsrc.tar.xz export-ignore
+.gitignore export-ignore
