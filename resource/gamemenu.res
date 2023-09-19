@@ -56,13 +56,6 @@
 		"tooltip" 		"DemoUI"
 	}
 
-	"Console"
-	{
-		"label"			"("
-		"command"		"engine con_enable 1;toggleconsole"
-		"tooltip"		"Open Console"
-	}
-
 	"Achievements"
 	{
 		"label"			"U"

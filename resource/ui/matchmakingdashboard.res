@@ -79,7 +79,7 @@
 			"font"		"Symbols 26"
 			"textAlignment"		"center"
 			"Command"		"toggle_chat"
-			"proportionaltoparent"		"1"
+			"proportionaltoparent"		"0"
 			"labeltext"		","
 			"mouseinputenabled"		"1"
 			"keyboardinputenabled"		"0"
@@ -88,6 +88,39 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"depressedFgColor_override"		"MainTheme"
+		}
+		"ToggleConsoleButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"ToggleConsoleButton"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"100"
+			"wide"		"25"
+			"tall"		"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"		"Symbols 26"
+			"textAlignment"		"center"
+			"Command"		"engine gameui_allowescapetoshow;toggleconsole"
+			"proportionaltoparent"		"0"
+			"labeltext"		"("
+			"mouseinputenabled"		"1"
+			"keyboardinputenabled"		"0"
+			"actionsignallevel"		"3"
+			"roundedcorners"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"pin_to_sibling"				"ToggleChatButton"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"1"
 
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
