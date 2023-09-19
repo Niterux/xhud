@@ -2260,7 +2260,7 @@
 				"labelText"		"Low"
 				"textAlignment"	"center"
 				"xpos"		"229"
-				"ypos"		"190"
+				"ypos"		"226"
 				"wide"		"59"
 				"tall"		"14"
 				"visible"		"1"
