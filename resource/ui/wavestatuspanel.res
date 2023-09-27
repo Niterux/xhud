@@ -26,6 +26,8 @@
 		"labelText"		"%wave_count%"
 		"proportionaltoparent"		"1"
 		"pin_to_sibling"		"ProgressBar"
+	"pin_corner_to_sibling" "PIN_TOPLEFT"
+	"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"SeparatorBar"
@@ -90,7 +92,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"		"cs-0.5"
+		"xpos"		"150"
 		"ypos"		"5"
 		"zpos"		"0"
 		"wide"		"300"
@@ -99,6 +101,6 @@
 		"enabled"		"1"
 		"image"		"replay/thumbnails/panels/black"
 		"alpha"		"150"
-		"proportionaltoparent"		"1"
+		"proportionaltoparent"		"0"
 	}
 }
