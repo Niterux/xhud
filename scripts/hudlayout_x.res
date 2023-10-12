@@ -427,15 +427,6 @@
 		"LocalBackgroundColor"	"TransparentWhite"
 	}
 
-	HudMessage
-	{
-		"wide"	 "f-12"
-		"tall"	 "310"
-		"xpos"	"-6"
-		"ypos"	"-6"
-		"alpha"	"50"
-	}
-
 	HudSpellMenu
 	{
 		"wide"	"50"
