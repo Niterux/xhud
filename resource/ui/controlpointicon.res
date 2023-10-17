@@ -1,5 +1,13 @@
 "Resource/UI/ControlPointIcon.res"
 {
+	"CapHighlightImage"
+	{
+		"ControlName"	"CControlPointIconSwoop"
+		"fieldName"		"CapHighlightImage"
+		"xpos"			"9999"
+		"alpha"			"0"
+	}
+
 	"ControlPointIcon"
 	{
 		"ControlName"	"EditablePanel"
