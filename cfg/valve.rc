@@ -1,6 +1,5 @@
 exec autoexec.cfg
 exec custom.cfg
 exec xhud.cfg
-cl_hud_minmode 0
 sv_unlockedchapters 0
 stuffcmds

@@ -103,7 +103,9 @@ event MMenu_UpdateButton_StartGlow{}
 event MMenu_UpdateButton_SubtleGlow{}
 event XPSourceShow_Positive{}
 event XPSourceShow_Negative{}
+//event SurveyShowSequence{}	//USED-Prevents chat lockout
 event SurveySubmitSequence{}
+//event SurveyDelete{}	//USED
 event SurveyHideSequence{}
 event MapVoted{}
 event HudTakeDamageFront{}

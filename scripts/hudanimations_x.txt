@@ -3,6 +3,11 @@ event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
 }
 
+event SurveyShowSequence
+{
+	RunEventChild	Survey	SurveyDelete	0.001
+}
+
 //==============================================================================
 
 //Hitmarker
@@ -53,7 +58,7 @@ event UberTimerHide
 
 //==============================================================================//End animation states
 
-event LevelInit{}		//Eventually useful
+event LevelInit{}		//Eventually useful?
 
 //==============================================================================
 
@@ -125,22 +130,22 @@ event HudLowAmmoPulseStop
 //==============================================================================
 event HudMedicChargedLoopyPart
 {
-	Animate	ChargeMeter	FgColor	"255 000 000 255"	Linear	0	1
-	Animate	ChargeMeter	FgColor	"000 255 000 255"	Linear	1	1
-	Animate	ChargeMeter	FgColor	"000 000 255 255"	Linear	2	1
+	Animate ChargeMeter	FgColor	"255 000 000 255"	Linear	0	1
+	Animate ChargeMeter	FgColor	"000 255 000 255"	Linear	1	1
+	Animate ChargeMeter	FgColor	"000 000 255 255"	Linear	2	1
 
-	Animate	ChargeMeter1	FgColor	"255 000 000 255"	Linear	0	1
-	Animate	ChargeMeter2	FgColor	"255 000 000 255"	Linear	0	1
-	Animate	ChargeMeter3	FgColor	"255 000 000 255"	Linear	0	1
-	Animate	ChargeMeter4	FgColor	"255 000 000 255"	Linear	0	1
-	Animate	ChargeMeter1	FgColor	"000 255 000 255"	Linear	1	1
-	Animate	ChargeMeter2	FgColor	"000 255 000 255"	Linear	1	1
-	Animate	ChargeMeter3	FgColor	"000 255 000 255"	Linear	1	1
-	Animate	ChargeMeter4	FgColor	"000 255 000 255"	Linear	1	1
-	Animate	ChargeMeter1	FgColor	"000 000 255 255"	Linear	2	1
-	Animate	ChargeMeter2	FgColor	"000 000 255 255"	Linear	2	1
-	Animate	ChargeMeter3	FgColor	"000 000 255 255"	Linear	2	1
-	Animate	ChargeMeter4	FgColor	"000 000 255 255"	Linear	2	1
+	Animate ChargeMeter1	FgColor	"255 000 000 255"	Linear	0	1
+	Animate ChargeMeter2	FgColor	"255 000 000 255"	Linear	0	1
+	Animate ChargeMeter3	FgColor	"255 000 000 255"	Linear	0	1
+	Animate ChargeMeter4	FgColor	"255 000 000 255"	Linear	0	1
+	Animate ChargeMeter1	FgColor	"000 255 000 255"	Linear	1	1
+	Animate ChargeMeter2	FgColor	"000 255 000 255"	Linear	1	1
+	Animate ChargeMeter3	FgColor	"000 255 000 255"	Linear	1	1
+	Animate ChargeMeter4	FgColor	"000 255 000 255"	Linear	1	1
+	Animate ChargeMeter1	FgColor	"000 000 255 255"	Linear	2	1
+	Animate ChargeMeter2	FgColor	"000 000 255 255"	Linear	2	1
+	Animate ChargeMeter3	FgColor	"000 000 255 255"	Linear	2	1
+	Animate ChargeMeter4	FgColor	"000 000 255 255"	Linear	2	1
 
 	RunEvent HudMedicChargedLoop	3.0
 }
@@ -162,14 +167,15 @@ event HudMedicChargedStop
 	StopEvent HudMedicChargedLoopyPart	0.0
 	StopEvent HudMedicChargedLoop	0.0
 
-	Animate	ChargeMeter	FgColor	"White"	Linear	0.0	0.001
+	Animate ChargeMeter	FgColor	"White"	Linear	0.0	0.001
 
-	Animate	ChargeMeter1	FgColor	"White"	Linear	0.0	0.001
-	Animate	ChargeMeter2	FgColor	"White"	Linear	0.0	0.001
-	Animate	ChargeMeter3	FgColor	"White"	Linear	0.0	0.001
-	Animate	ChargeMeter4	FgColor	"White"	Linear	0.0	0.001
+	Animate ChargeMeter1	FgColor	"White"	Linear	0.0	0.001
+	Animate ChargeMeter2	FgColor	"White"	Linear	0.0	0.001
+	Animate ChargeMeter3	FgColor	"White"	Linear	0.0	0.001
+	Animate ChargeMeter4	FgColor	"White"	Linear	0.0	0.001
 	RunEventChild CoolBeam StopParticle0 0.0
 	RunEventChild CoolBeam StopParticle1 0.0
+
 }
 
 //==============================================================================
@@ -178,6 +184,7 @@ event HudMedicChargedStop
 event TeamStatus_PlayerDead
 {
 	SetVisible respawntime	1 0.0
+	//PlaySound 0 "weapons/det_pack_timer.wav"
 }
 
 event TeamStatus_PlayerAlive
@@ -190,23 +197,23 @@ event TeamStatus_PlayerAlive
 //KOTH timer inactive
 event ActiveTimerHighlight
 {
-	Animate	TimePanelValue	FgColor	"White"	Linear 0.1 0.001
+	Animate TimePanelValue	FgColor	"White"	Linear 0.1 0.001
 }
 event ActiveTimerDim
 {
-	Animate	TimePanelValue	FgColor	"WhiteGray"	Linear	0.0 0.001
+	Animate TimePanelValue	FgColor	"WhiteGray"	Linear	0.0 0.001
 }
 
 //==============================================================================
 
 event HudTournamentSetupPanelOpen
 {
-	Animate	HudTournamentSetup	ypos	61	Spline 0.0 0.2
+	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate	HudTournamentSetup	ypos	-70	Spline 0.0 0.2
+	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 }
 
 //==============================================================================
@@ -302,9 +309,4 @@ event StopParticle0
 event StopParticle1
 {
 	FireCommand 0 "stop1"
-}
-
-event SurveyShowSequence
-{
-	RunEventChild	Survey	SurveyDelete		0.1
 }
